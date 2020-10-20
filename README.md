@@ -22,6 +22,7 @@ No key? Try Syntax 2 -> Essentially scans for all open ports
 > nmap -p- -T5 -oN results.txt [target-ip-address]
 
 <br/>
+
 ### Web Enumeration (No login page)
 
 ![alt text](https://github.com/WhiteBear82/Penetration-Testing-on-Companies/blob/main/Images/WebEnum.jpg?raw=true)<br/>
