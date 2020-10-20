@@ -21,13 +21,18 @@ Syntax 1 -> Aggressive but Informative Nmap Scan. Most commonly used.
 No key? Try Syntax 2 -> Essentially scans for all open ports
 > nmap -p- -T5 -oN results.txt [target-ip-address]
 
+<br/>
 ### Web Enumeration (No login page)
+
+![alt text](https://github.com/WhiteBear82/Penetration-Testing-on-Companies/blob/main/Images/WebEnum.jpg?raw=true)<br/>
 
 1st Attempt -> Always use directory buster (I prefer _dirbuster_ with wordlist _directory-list-2.3-medium.txt_) -> Reveals interesting folders/files<br/>
 2nd Attempt -> Always read all source pages (I typically focus on _comments_) -> Reveals interesting comments that gives additional website information<br/>
 3rd Attempt -> Use Burp Suite to intercept and capture requests to check interesting information being forwarded and received<br/>
 
 ### Web Enumeration (Login page)
+
+![alt text](https://github.com/WhiteBear82/Penetration-Testing-on-Companies/blob/main/Images/WebLogin.jpg?raw=true)<br/>
 
 1st Attempt -> Try common credentials such as (admin:admin), (guest:guest), (admin:password), (root:password), (root:root)<br/>
 2nd Attempt -> Try known credentials that was obtained through OSINT, from other machines, etc.<br/>
