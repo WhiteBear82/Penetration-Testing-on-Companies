@@ -1,10 +1,19 @@
 # Penetration-Testing-on-Companies
 
 ## Enumeration
+- OSINT
 - Nmap
 - Web Enumeration
 
+### OSINT
+
+![alt text](https://github.com/WhiteBear82/Penetration-Testing-on-Companies/blob/main/Images/OSINT.jpeg?raw=true)<br/>
+First step -> What is the target company's name? Google-fu it and see if the company actually owns a publicly facing website. If yes, take a deep dive into the website and dig for information.<br/>
+Second step -> What is the target company's name? Google-fu it and look for social media platforms (e.g. Twitter, Facebook, Instagram, LinkedIn) owned by employees working in that company, and take a deep dive into each of these employee's social media platform and check if there is any interesting information.<br/>
+
 ### Nmap
+
+![alt text](https://github.com/WhiteBear82/Penetration-Testing-on-Companies/blob/main/Images/Enumeration.jpeg?raw=true)<br/>
 
 Syntax 1 -> Aggressive but Informative Nmap Scan. Most commonly used.
 > nmap -A -oN results.txt [target-ip-address]
